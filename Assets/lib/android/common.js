@@ -1,4 +1,4 @@
-#import 'library/sandbox.js'
+#import 'lib/android/sandbox.js'
 
 var com = {};
 com.animal = {
@@ -12,6 +12,7 @@ com.animal = {
       [openDlg setCanChooseFiles:false];
       [openDlg setCanChooseDirectories:true];
       [openDlg setAllowsMultipleSelection:false];
+      [openDlg setCanCreateDirectories: true];
       [openDlg setPrompt:"Select"];
 
       if ( [openDlg runModalForDirectory:nil file:nil] == NSOKButton ) {

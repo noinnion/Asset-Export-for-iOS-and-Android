@@ -1,5 +1,5 @@
-Sketch-Better-Asset-Export
-============================
+Sketch Asset Export (for iOS & Android)
+=======================================
 
 A plugin for Sketch to export layers for Android & iOS. Supports transparency, 1x and 2x base sizes, and has been tested against Sketch 3.2.
 

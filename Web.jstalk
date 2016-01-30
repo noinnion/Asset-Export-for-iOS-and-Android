@@ -1,12 +1,11 @@
-// Better Export for iOS (cmd shift i)
+// Better Export for iOS (cmd shift w)
 // Nick Stamas @nickstamas
 // forked by Dhanish (http://designedbyDC.com)
 
-#import 'lib/common-ios.js'
+#import 'lib/common-web.js'
 
 var factors = [
   {name: "", scale: 1.0},
-  {name: "@2x", scale: 2.0},
-  {name: "@3x", scale: 3.0}];
+  {name: "@2x", scale: 2.0}];
 
 com.animal.exportWithFactors(factors);

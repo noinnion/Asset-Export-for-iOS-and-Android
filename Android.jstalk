@@ -2,7 +2,7 @@
 // Nick Stamas @nickstamas
 // forked by Dhanish (http://designedbyDC.com)
 
-#import 'lib/android/common.js'
+#import 'lib/common-android.js'
 
 var factors = [
   {name: "drawable-ldpi", scale: 0.75},
